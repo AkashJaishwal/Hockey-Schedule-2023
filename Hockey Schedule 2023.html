@@ -1,0 +1,795 @@
+<html>
+
+<head>
+    <title>Hockey Schedule</title>
+    <style>
+        body {
+            background-image: url("backgraund.webp");
+            background-size: cover;
+            font-family: 'arial black';
+            font-weight: bold;
+        }
+
+        td,
+        th {
+            padding-left: 5px;
+            padding-right: 1px;
+        }
+
+        th.partition {
+            height: 2cm;
+            width: 4cm;
+            font-size: 44pt;
+        }
+
+        th.head {
+            font-size: 44pt;
+            color: #5eb449;
+        }
+
+        table.left {
+            border: 5px solid #5eb449;
+            border-collapse: collapse;
+            font-size: 8pt;
+        }
+
+        th.pool {
+            color: black;
+            background-color: white;
+        }
+
+        td.dark_country {
+            color: #5eb449;
+            background-color: #010233;
+        }
+
+        td.light_country {
+            color: #5eb449;
+            background-color: #003b57;
+        }
+
+        table.right {
+            border-collapse: collapse;
+            font-size: 8pt;
+            font-family: 'Full Neue LC';
+            text-align: center;
+            color: white;
+            width: 500px;
+            height: 500px;
+        }
+
+        th.right {
+            background-color: #010233;
+        }
+
+        tr.dark {
+            background-color: #010233;
+        }
+
+        tr.light {
+            background-color: #003b57;
+        }
+
+        td.line {
+            height: 2px;
+            background-color: #5eb449;
+            column-span: 17;
+        }
+
+        td.small_font {
+            font-size: 6pt;
+        }
+
+        td.date {
+            text-align: left;
+        }
+
+        td.country_left {
+            color: #5eb449;
+            font-weight: bold;
+            font-size: 10pt;
+            text-align: right;
+        }
+
+        td.country_right {
+            color: #5eb449;
+            font-weight: bold;
+            font-size: 10pt;
+            text-align: left;
+        }
+        td.text{
+            color: white;
+            font-size: 6pt;
+            text-align: left;
+        }
+        img{
+            height: 2cm;
+            width: 4cm;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th class="partition"> <img src="logo.png" alt="World Cup logo"></th>
+            <th class="head" align="left">MATCH SCHEDULE</th>
+        </tr>
+        <tr>
+            <td>
+                <table class="left" align="top">
+                    <tr>
+                        <th class="pool">POOL A</th>
+                    </tr>
+                    <tr>
+                        <td class="dark_country">&nbsp;AUSTRALIA</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;ARGENTINA</td>
+                    </tr>
+                    <tr>
+                        <td class="dark_country">&nbsp;FRANCE</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;SOUTH AFRICA</td>
+                    </tr>
+                    <tr>
+                        <th class="pool">POOL B</th>
+                    </tr>
+                    <tr>
+                        <td class="dark_country">&nbsp;BELGIUM</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;GERMNAY</td>
+                    </tr>
+                    <tr>
+                        <td class="dark_country">&nbsp;JAPAN</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;KOREA</td>
+                    </tr>
+                    <tr>
+                        <th class="pool">POOL C</th>
+                    </tr>
+                    <tr>
+                        <td class="dark_country">&nbsp;CHILE</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;MALAYSIA</td>
+                    </tr>
+                    <tr>
+                        <td class="dark_country"> &nbsp;NETHERLANDS &nbsp;&nbsp;&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;NEWZEALAND</td>
+                    </tr>
+                    <tr>
+                        <th class="pool">POOL D</th>
+                    </tr>
+                    <tr>
+                        <td class="dark_country">&nbsp;ENGLAND</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;INDIA</td>
+                    </tr>
+                    <tr>
+                        <td class="dark_country">&nbsp;SPAIN</td>
+                    </tr>
+                    <tr>
+                        <td class="light_country">&nbsp;WALES</td>
+                    </tr>
+                </table>
+            </td>
+
+            <td>
+                <table class="right">
+
+                    <td>
+                        <table class="right">
+                            <tr>
+                                <th class="right" align="left">&nbsp; DATE &nbsp;</th>
+                                <th class="right">&nbsp; PLACE &nbsp; </th>
+                                <th class="right">&nbsp; N&deg; &nbsp; </th>
+                                <th class="right">&nbsp; POOL &nbsp;</th>
+                                <th class="right">&nbsp; TIME &nbsp;</th>
+                                <th class="right" colspan="3">&nbsp; MATCH &nbsp;</th>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; FRI 13 JAN</td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">1</td>
+                                <td class="small_font">A</td>
+                                <td class="small_font">13:00</td>
+                                <td class="country_left">ARGENTINA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">SOUTH AFRICA &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">2</td>
+                                <td class="small_font">A</td>
+                                <td class="small_font">15:00</td>
+                                <td class="country_left">AUSTRALIA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">FRANCE &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">3</td>
+                                <td class="small_font">D</td>
+                                <td class="small_font">17:00</td>
+                                <td class="country_left">ENGLAND</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">WALES &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">4</td>
+                                <td class="small_font">D</td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">INDIA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">SPAIN &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; SAT 14 JAN </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">5</td>
+                                <td class="small_font">C</td>
+                                <td class="small_font">13:00</td>
+                                <td class="country_left">NEWZEALAND</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">CHILE &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">6</td>
+                                <td class="small_font">C</td>
+                                <td class="small_font">15:00</td>
+                                <td class="country_left">NETHERLANDS</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">MALAYSIA &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">7</td>
+                                <td class="small_font">B</td>
+                                <td class="small_font">17:00</td>
+                                <td class="country_left">BELGIUM</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">KOREA &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">8</td>
+                                <td class="small_font">B</td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">GERMNAY</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">JAPAN &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; SUN 15 JAN </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">9</td>
+                                <td class="small_font">D</td>
+                                <td class="small_font">17:00</td>
+                                <td class="country_left">SPAIN</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">WALES &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">10</td>
+                                <td class="small_font">D</td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">ENGLAND</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">INDIA &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; MON 16 JAN </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">11</td>
+                                <td class="small_font">C</td>
+                                <td class="small_font">13:00</td>
+                                <td class="country_left">MALAYSIA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">CHILE &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">12</td>
+                                <td class="small_font">C</td>
+                                <td class="small_font">15:00</td>
+                                <td class="country_left">NEWZEALAND</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">NETHERLANDS &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">13</td>
+                                <td class="small_font">A</td>
+                                <td class="small_font">17:00</td>
+                                <td class="country_left">FRANCE</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">SOUTH AFRICA &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">14</td>
+                                <td class="small_font">A</td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">ARGENTINA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">AUSTRALIA &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; TUE 17 JAN </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">15</td>
+                                <td class="small_font">B</td>
+                                <td class="small_font">17:00</td>
+                                <td class="country_left">KOREA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">JAPAN &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">16</td>
+                                <td class="small_font">B</td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">GERMNAY</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">BELGIUM &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date" colspan="3">&nbsp; WED 18 JAN</td>
+                                <td class="small_font" colspan="2">REST DAY</td>
+                                <td class="small_font" colspan="3">REST DAY</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; THU 19 JAN </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">17</td>
+                                <td class="small_font">C</td>
+                                <td class="small_font">13:00</td>
+                                <td class="country_left">MALAYSIA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">NEWZEALAND &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">18</td>
+                                <td class="small_font">C</td>
+                                <td class="small_font">15:00</td>
+                                <td class="country_left">NEWZEALAND</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">CHILE &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">19</td>
+                                <td class="small_font">D</td>
+                                <td class="small_font">17:00</td>
+                                <td class="country_left">SPAIN</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">ENGLAND &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">20</td>
+                                <td class="small_font">D</td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">INDIA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">WALES &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; FRI 20 JAN </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">21</td>
+                                <td class="small_font">A</td>
+                                <td class="small_font">13:00</td>
+                                <td class="country_left">AUSTRALIA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">SOUTH AFRICA &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">22</td>
+                                <td class="small_font">A</td>
+                                <td class="small_font">15:00</td>
+                                <td class="country_left">FRANCE</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">ARGENTINA &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">23</td>
+                                <td class="small_font">B</td>
+                                <td class="small_font">17:00</td>
+                                <td class="country_left">BELGIUM</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">JAPAN &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">24</td>
+                                <td class="small_font">B</td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">KOREA</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">GERMNAY &nbsp;</td>
+                            </tr>
+
+                        </table>
+                    </td>
+
+                    <td>
+                        <table class="right">
+                            <tr>
+                                <th class="right">&nbsp; DATE &nbsp;</th>
+                                <th class="right">&nbsp; PLACE &nbsp; </th>
+                                <th class="right">&nbsp; N&deg; &nbsp; </th>
+                                <th class="right">&nbsp; POOL &nbsp;</th>
+                                <th class="right">&nbsp; TIME &nbsp;</th>
+                                <th class="right" colspan="3">&nbsp; MATCH &nbsp;</th>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date" colspan="3">&nbsp; SAT 21 JAN</td>
+                                <td class="small_font" colspan="2">REST DAY</td>
+                                <td class="small_font" colspan="3">REST DAY</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; SAT 22 JAN</td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">25</td>
+                                <td class="small_font">CO <sup>1</sup> </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">2nd POOL C</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">3rd POOL D &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">26</td>
+                                <td class="small_font">CO <sup>1</sup> </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">2nd POOL D</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">3rd POOL C &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; MON 23 JAN</td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">27</td>
+                                <td class="small_font">CO <sup>1</sup> </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">2nd POOL A</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">3rd POOL B &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">28</td>
+                                <td class="small_font">CO <sup>1</sup> </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">2nd POOL B</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">3rd POOL A &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; TUE 24 JAN</td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">29</td>
+                                <td class="small_font">CO <sup>2</sup> </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">1st POOL A</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 25 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">30</td>
+                                <td class="small_font">CO <sup>2</sup> </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">1st POOL B</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 26&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; WED 25 JAN</td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">31</td>
+                                <td class="small_font">CO <sup>2</sup> </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">1st POOL C</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 27 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">32</td>
+                                <td class="small_font">CO <sup>2</sup> </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">1st POOL D</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 28&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; THU 26 JAN</td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">33</td>
+                                <td class="small_font">9/16<sup>1</sup> </td>
+                                <td class="small_font">11:30</td>
+                                <td class="country_left">4th POOL A</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Loser match 25 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">34</td>
+                                <td class="small_font">9/16<sup>1</sup> </td>
+                                <td class="small_font">20:00</td>
+                                <td class="country_left">4th POOL B</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Loser match 26 &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">35</td>
+                                <td class="small_font">9/16<sup>1</sup> </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">4th POOL C</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Loser match 27 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">36</td>
+                                <td class="small_font">9/16<sup>1</sup> </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">4th POOL D</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Loser match 28 &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; FRI 27 JAN</td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">37</td>
+                                <td class="small_font">SF <sup>3</sup> </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">Winner match 29</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 32 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">38</td>
+                                <td class="small_font">SF <sup>3</sup> </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">Winner match 30</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 31&nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; SAT 28 JAN</td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">39</td>
+                                <td class="small_font">13/16<sub>4</sub> </td>
+                                <td class="small_font">11:30</td>
+                                <td class="country_left">Loser match 33</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Loser match 34 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">40</td>
+                                <td class="small_font">13/16<sub>4</sub> </td>
+                                <td class="small_font">14:00</td>
+                                <td class="country_left">Loser match 35</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Loser match 36 &nbsp;</td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">41</td>
+                                <td class="small_font">9/12<sub>4</sub> </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">Winner match 33</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winnet match 34 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">ROURKELA</td>
+                                <td class="small_font">42</td>
+                                <td class="small_font">9/12<sub>4</sub> </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">Winner match 35</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 36 &nbsp;</td>
+                            </tr>
+
+                            <tr>
+                                <td class="line" colspan="8"></td>
+                            </tr>
+
+                            <tr class="light">
+                                <td class="date">&nbsp; SUN 29 JAN </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">43</td>
+                                <td class="small_font">3/4 </td>
+                                <td class="small_font">16:30</td>
+                                <td class="country_left">Loser match 37</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Loser match 38 &nbsp;</td>
+                            </tr>
+
+                            <tr class="dark">
+                                <td class="date">&nbsp; </td>
+                                <td class="small_font">BHUBANESWAR</td>
+                                <td class="small_font">44</td>
+                                <td class="small_font">FINAL </td>
+                                <td class="small_font">19:00</td>
+                                <td class="country_left">Winner match 37</td>
+                                <td class="small_font">VS</td>
+                                <td class="country_right">Winner match 38 &nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="text" colspan="8">
+                                    <p>
+                                        Notes: Subject to the approval of the FIH any match(es) may be reschedules. <br>
+                                        1. The sequence of matches will be confirmed on completion of the pool matches <br>
+                                        2. The sequence of the Quarter-finals will be confirmed on completion of the Cross-Overs <br>
+                                        3. The sequence of matches will be confirmed on completion of the Quarter-finals <br>
+                                        4. The sequence of matches will be confirmed on completion of matches 29, 30, 31 and 32 <br>
+                                        5. The World Ranking will be based on FIH World Rankings at midnight (GMT) on the final day of the Qualifiers when all sixteen (16) teams will be known.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
